@@ -1,0 +1,33 @@
+namespace Test;
+
+table Summary {
+    Rms: double;
+    Kurtosis: double;
+    Skewness: double;
+    Variance: double;
+    Mean: double;
+    min: double;
+    max: double;
+    count: double;
+    sumOfSquare: double;
+    Percentile_2: double;
+    Percentile_5: double;
+    Percentile_10: double;
+    Percentile_20: double;
+    Percentile_40: double;
+    Percentile_50: double;
+    Percentile_60: double;
+    Percentile_80: double;
+    Percentile_90: double;
+    Percentile_95: double;
+    Percentile_98: double; 
+    Percentile_99: double;
+    Percentile_100: double;
+    Percentile_98_2: double;
+    Percentile_95_5: double;
+    Percentile_95_10: double;
+    Percentile_80_20: double;
+    Percentile_60_40: double;
+    Crest: double;
+}
+root_type Summary;
